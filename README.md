@@ -9,3 +9,4 @@ Caracteristicas:
 - Guardado automático: guarde automáticamente los elementos de la lista de tareas pendientes en el almacenamiento local cada vez que se realice un cambio para que el usuario no tenga que preocuparse por guardar la lista manualmente.
 - Buscar: agregue una barra de búsqueda a la aplicación que puede buscar elementos en la lista de tareas pendientes y guardar el historial de búsqueda del usuario en el almacenamiento local.
 
+
