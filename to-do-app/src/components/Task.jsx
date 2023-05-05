@@ -1,16 +1,23 @@
 function Task(props) {
     const {tarea} = props
-    return(<article className="flex items-start space-x-6 p-6 bg-slate-50 rounded-sm">
-        <div className="min-w-0 relative flex-auto">
-            <aside className="flex-none rounded-md bg-slate-100">
-                <h1 className="text-red-600">{tarea.hora}</h1>
-            </aside>
-            <div className="min-w-0 relative flex-auto">
-                <h2 className="font-semibold text-slate-900 truncate pr-20">{tarea.name}</h2>
-                <p className="text-slate-400">{tarea.desc}</p>
-                <p className="text-slate-400">{tarea.status}</p>
+    return(<article className="w-screen max-w-md flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
+            <div className="p-3">
+                <div key={tarea.hora} className="group relative flex gap-x-5 rounded-lg p-4 hover:bg-gray-50">
+                  <div className="mt-1 flex h-11 w-18 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                    <p className="tx-brown-100 font-bold text-xs">{tarea.hora}</p>
+                  </div>
+                  <div>
+                      <span className="absolute inset-0" />
+                      {tarea.name}
+                    <p className="mt-1 text-gray-600">{tarea.desc}</p>
+                  </div>
+                  <div>
+                    <span className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
+                        {tarea.status}
+                    </span>
+                  </div>
+                </div>
             </div>
-        </div>
     </article>)
 }
 export default Task
