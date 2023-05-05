@@ -1,7 +1,38 @@
 body {
-    background-color: #121212;
+    background-color: #f1f2f3;
 }
 article {
     margin: 1rem;
     max-width: 80%;
+}
+/*== Paleta de colores ==*/
+.bg-brown-100 {
+    background-color: #553D2C;
+}
+.bg-orange-200 {
+    background-color: #F98C3A;
+}
+.bg-skin-300 {
+    background-color: #FCD9B4;
+}
+.bg-cream-400 {
+    background-color: #F3F2D0;
+}
+.bg-lightcream-500 {
+    background-color: #FBFCE4;
+}
+.tx-brown-100 {
+    color: #553D2C;
+}
+.tx-orange-200 {
+    color: #F98C3A;
+}
+.tx-skin-300 {
+    color: #FCD9B4;
+}
+.tx-cream-400 {
+    color: #F3F2D0;
+}
+.tx-lightcream-500 {
+    color: #FBFCE4;
 }

@@ -1,6 +1,6 @@
 import Task from "./Task"
 function Main() {
-    return (<section>
+    return (<section className="container mx-auto">
       <Task tarea={{name: "Lavantarse", desc: "Levantarse de la cama", fecha: "02/05/2023", hora: "08:00 AM", status: "Pendiente"}}/>
       <Task tarea={{name: "Lavarse los dientes", desc: "Con pasta de dientes", fecha: "02/05/2023", hora: "09:00 AM", status: "Pendiente"}}/>
       <Task tarea={{name: "Llevar a la niña al colegio", desc: "Llevar a la catita al cole", fecha: "02/05/2023", hora: "10:00 AM", status: "Pendiente"}}/>
