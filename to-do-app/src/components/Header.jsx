@@ -1,16 +1,16 @@
-import logo from '../assets/Granadina_logo-color.png'
+import logo from '../assets/Granadina-logo.png'
 function Header() {
     return(
-        <div className="sm:mx-auto sm:w-full sm:max-w-sm bg-white">
+        <header className="sm:mx-auto sm:w-full sm:max-w-sm">
           <img
             className="mx-auto h-32 w-auto"
             src={logo}
             alt="Todo - Granadina Logo"
           />
-          <h2 className="mt-2 text-center text-3xl font-bold leading-9 tracking-tight text-gray-900">
-            To do - Organiza tu dia
+          <h2 className="mt-2 text-center text-3xl text-cien-100 font-bold leading-9 tracking-tight">
+            OrganizaT
           </h2>
-        </div>    
+        </header>    
     )
 }
 
