@@ -1,6 +1,10 @@
 function Nav() {
     return(
-        <form className="m-10">
+    <nav className="container mt-10 mx-auto p-1 rounded-lg flex flex-row bg-cuat-400">
+        <div className="basis-1/2">
+
+        </div>
+        <form className="m-5 basis-1/2">
             <label for="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Buscar</label>
             <div className="relative">
                 <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
@@ -14,7 +18,8 @@ function Nav() {
                     placeholder="Buscar Tareas, por estado, fecha..." required/>
                 <button type="submit" className="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Buscar</button>
             </div>
-        </form>)
+        </form>
+    </nav>)
 }
 
 export default Nav

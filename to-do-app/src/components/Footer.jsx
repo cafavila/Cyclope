@@ -1,10 +1,10 @@
 function Footer() {
     return(
-        <div className="relative isolate overflow-hidden bg-brown-100 py-16 sm:py-24 lg:py-32">
+        <div className="relative isolate overflow-hidden bg-cien-100 py-14 sm:py-20 lg:py-28">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
                     <div className="max-w-xl lg:max-w-lg">
-                        <p className="text-2xl font-bold tracking-tight text-white sm:text-4xl">Producto desarrollado por Granadina. &copy; 2003 - Santiago, Chile.</p>
+                        <p className="text-2xl font-bold tracking-tight text-dosc-200 sm:text-3xl">Producto desarrollado por Granadina. &copy; 2003 - Santiago, Chile.</p>
                     </div>
                 </div>
             </div>
@@ -19,6 +19,3 @@ function Footer() {
 }
 
 export default Footer
-
-/*            <div className="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
- */
