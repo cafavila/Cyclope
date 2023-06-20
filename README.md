@@ -15,7 +15,7 @@ Este es un proyecto que busca desarrollar una aplicacion para la gestion de proy
     - Definir el User Persona
     - Desarrollar el Customer Journey
 
-## Insights (Perspectivas/Descubrimientos):
+### Insights (Perspectivas/Descubrimientos):
   Se debe recopilar informacion y entrevistar a los usuarios o clientes que presentan el problema, los descubrimientos se deben clasificar segun:
     - Cuantitativa:
       - Insight de Productos y usuarios
@@ -28,25 +28,25 @@ Este es un proyecto que busca desarrollar una aplicacion para la gestion de proy
       - Analisis de la competencia
       - Tendencias de Mercado
 
-  ## Apetito:
+  ### Apetito:
     Aqui se establece los limites de los que se quiere hacer en las proximas 6 semanas, se trabaja con el ciclo completo o se divide en dos etapas de 3 semanas cada una.
 
-  ## Solucion Potencial:
+  ### Solucion Potencial:
     Se entrega una potencial solucion con una breve descripcion sin entrar en tanto detalle a lo mas se debe utilizar un diseño de muy baja fidelidad.
 
-  ## Agujeros de Conejo:
+  ### Agujeros de Conejo:
      Aqui se deben plantear los agujeros de conejo osea todos los riesgos y potenciales atascos a los que se podria enfrentar el proyecto.
 
-  ## No Go (Fuera del alcance):
+  ### No Go (Fuera del alcance):
       En esta seccion se debe especificar que aspectos no se abordaran de la solucion y que no forman parte de ella en este ciclo por lo menos.
 
-  ## Metricas de Satisfaccion:
+  ### Metricas de Satisfaccion:
       Definir que debe ver el usuario y si es lo que espera recibir. Definir los criterios de aceptacion de la solucion, con que puntos o resultados el cliente se da por satisfecho.
 
-  ## Q&A:
+  ### Q&A:
     Disponer de una seccion donde se puedan aclarar las dudas y se puedan ver las preguntas que tienen los distintos involucrados con el problema/producto/proyecto.
 
-  ## Apendice:
+  ### Apendice:
     Adjuntar todo el material de apoyo, graficos, imagenes y documentacion que abala o que surgio del proyecto.
 
 
